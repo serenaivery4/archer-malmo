@@ -1,0 +1,116 @@
+p #gabe{
+	background-color:#58A4B0;
+
+}
+h1{
+	font-size: 22;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bolder;
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-bottom: 3%;
+	padding-top:3%;
+	text-align: center;
+}
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000000;
+	text-align: center;
+	border: dashed;
+	border-color: yellow;
+	padding: 1.5%;
+}
+hr{ 
+  height:2px;
+  color: yellow;
+  background-color: yellow;
+  border: none;
+}
+div p{
+	color: #4F545A;
+	text-align: center;
+}
+a{
+	color: #000000;
+}   
+h3{
+	color: black;
+	font-weight: bold; 
+	transition: font-weight .65s ease;
+}
+ul{
+	padding: 0; 
+	list-style-type: none;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+span{
+	font-weight: bold;
+	color: red;
+}
+.Social{
+	border-radius: 50%;
+}
+.center {
+  	margin-left: 25%;
+}
+.image-wrap {
+    background-color: yellow;
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image-wrap img {
+	display: inline-block;
+	width: 350px;
+}
+
+.header-side{
+	font-family: 'Josefin Sans', sans-serif;
+	position: center;
+	text-align: center;
+	color: yellow; 
+	background: url(img/background.jpg) no-repeat center center;
+	background-size: cover;
+	height: 10vh;
+}
+.header{
+	position: relative;
+	text-align: center;
+	color: yellow; 
+	background: url(img/background.jpg) no-repeat center center;
+	background-size: cover;
+	height: 50vh;
+	position: relative;
+}
+
+.centered {
+	
+	position: center;
+}
+.centered h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  border: 5px solid yellow;
+}
+
+@keyframes link{
+	from{font-size: 18;}
+	to{font-size: 22;}
+}
+.link:hover h3,{
+	font-weight: bolder;
+}
+.gabe{
+	background-color:  #C5C8A9;
+	width: 95%;
+	padding: 15px;
+	margin: 20px auto;
+	text-align: center;
+}
